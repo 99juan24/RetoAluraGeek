@@ -1,0 +1,17 @@
+.section .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap{
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+@media (max-width:420px){
+    .wrap{
+        gap: 2rem;
+        justify-content: center!important;
+    }
+}
+

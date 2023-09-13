@@ -1,0 +1,27 @@
+.nav_search{
+    border-radius: 20px;
+    width: 30%;
+    background-color: rgb(197, 197, 197);
+    opacity: .5;
+    padding-left: 1rem;
+}
+
+.nav_search::placeholder{
+    color: #333; /* Color deseado */
+
+}
+.nav_search:focus{
+    outline: none
+}
+
+@media(max-width:760px){
+    .nav_search{
+        display: none;
+    }
+
+    .focus{
+        display: block;
+        width: 100%;
+        
+    }
+}

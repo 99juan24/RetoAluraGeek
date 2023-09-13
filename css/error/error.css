@@ -1,0 +1,42 @@
+#error{
+    height: max-content;
+    background-color: var(--color-main);
+}
+
+#error .container{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.error_title{
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-titulo)
+}
+
+.error_button{
+    color: white;
+    background-color:#FA415B;
+    padding: 1rem 3rem;
+}
+
+.logo{
+    width: 15%;
+
+}
+
+@media(max-width:760px){
+    .logo{
+        width: 20%;
+    }
+}
+
+@media(max-width:480px){
+    .logo{
+        width: 35%;
+    }
+}

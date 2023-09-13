@@ -1,0 +1,6 @@
+.banner_button{
+    background-color: var(--color-principal);
+    padding: .8rem;
+    border-radius: 3px;
+
+}

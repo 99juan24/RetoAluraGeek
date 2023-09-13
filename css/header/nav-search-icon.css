@@ -1,0 +1,14 @@
+.nav_search_icon {
+    display: none;
+}
+
+@media(max-width:768px){
+    .nav_search_icon {
+        display: block;
+    }
+
+    .desactive{
+        display: none;
+    }
+    
+}
